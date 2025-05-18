@@ -4,9 +4,9 @@ import profilePic from '../images/sumanth.jpeg';
 import { FaEnvelope, FaPhoneAlt, FaCoffee, FaLinkedin } from 'react-icons/fa';
 import { ContactMe as IContactMe } from '../types';
 const staticUserData = {
-  name: "Sumanth Samala",
-  title: "Senior Software Engineer",
-  summary: "With 5+ years in full-stack development, skilled in Ruby on Rails, Java Spring Boot, React, Node, AWS, Kubernetes, and Docker.",
+  name: "Anupam Chittora",
+  title: "Final Year ECE Student",
+  summary: "With 2+ years in full-stack development, skilled in React, Node, AWS, Kubernetes, and Docker.",
   companyUniversity: "Malaviya National Institute of Technology Jaipur (MNIT)",
   email: "2022uec1452@mnit.ac.in",
   phoneNumber: "+91 6350377489",
