@@ -2,6 +2,7 @@ import React from 'react';
 import './ProfileBanner.css';
 import PlayButton from '../components/PlayButton';
 import MoreInfoButton from '../components/MoreInfoButton';
+import GithubButton from '../components/GithubButton'; // ✅ New import
 import { FaGithub } from 'react-icons/fa';
 const bannerData = {
   headline: "Anupam Chittora – Aspiring Software Developer",
@@ -35,9 +36,7 @@ const ProfileBanner: React.FC = () => {
         <div className="banner-buttons">
           <PlayButton onClick={handlePlayClick} label="Resume" />
           <MoreInfoButton onClick={handleLinkedinClick} label="Linkedin" />
-          <button className="banner-button github-button" onClick={handleGithubClick}>
-            <FaGithub style={{ marginRight: '5px' }} /> GitHub
-          </button>
+          <GithubButton onClick={handleGithubClick} label="GitHub" />
         </div>
       </div>
     </div>

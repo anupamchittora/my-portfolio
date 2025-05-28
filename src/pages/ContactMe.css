@@ -151,3 +151,57 @@
     transform: rotate(30deg);
   }
 }
+.contact-form {
+  margin-top: 50px;
+  background: #0f1117;
+  padding: 30px 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.contact-form label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #d62b2b;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #a32222;
+}

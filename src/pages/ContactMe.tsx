@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useRef } from 'react';
 import './ContactMe.css';
 import profilePic from '../images/sumanth.jpeg';
 import { FaEnvelope, FaPhoneAlt, FaCoffee, FaLinkedin } from 'react-icons/fa';
 import { ContactMe as IContactMe } from '../types';
+import emailjs from 'emailjs-com';
 const staticUserData = {
   name: "Anupam Chittora",
   title: "Final Year ECE Student",
@@ -15,6 +16,24 @@ const staticUserData = {
 
 const ContactMe: React.FC = () => {
   const userData = staticUserData;
+  const formRef = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_4juf53k',     // Replace with your actual service ID
+      'template_ifz0kdi',    // Replace with your actual template ID
+      formRef.current!,
+      'Lb66oLXTir33I1zZl'      // Replace with your actual Public Key (user ID)
+    )
+    .then((result) => {
+        alert("Message sent successfully!");
+        formRef.current?.reset();
+    }, (error) => {
+        alert("Failed to send message: " + error.text);
+    });
+  };
 
   return (
     <div className="contact-container">
@@ -58,6 +77,18 @@ const ContactMe: React.FC = () => {
           <FaCoffee className="coffee-icon" />
         </div>
       </div>
+      <form ref={formRef} className="contact-form" onSubmit={sendEmail}>
+        <h2>Contact Me</h2>
+        <label>Your Name</label>
+        <input type="text" name="name" placeholder="Enter name" required />
+        <label>Your Email</label>
+        <input type="email" name="email" placeholder="Enter email" required />
+        <label>Your Message</label>
+        <textarea name="message" placeholder="Type your message..." required></textarea>
+        <button type="submit">
+          <strong>Send Message</strong> <FaEnvelope />
+        </button>
+      </form>
     </div>
   );
 };
