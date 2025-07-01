@@ -1,15 +1,18 @@
 
 import './Projects.css';
 import { TbTopologyStar3 } from 'react-icons/tb'; // ImGui placeholder
-import { FaCuttlefish, FaCode,FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, FaGitlab, FaGoogle, FaJava, FaJenkins, FaMicrosoft, FaPython, FaVuejs } from 'react-icons/fa';
+import { FaCuttlefish,FaCode,FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, FaGitlab, FaGoogle, FaJava, FaJenkins, FaMicrosoft, FaPython, FaVuejs } from 'react-icons/fa';
 import { SiOpencv,SiOpengl,SiScikitlearn,SiPytorch,SiNumpy,SiPandas,SiSocketdotio,SiRubyonrails, SiPostgresql, SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiJquery, SiAwsamplify, SiFirebase, SiTerraform, SiArgo } from 'react-icons/si';
+import { RiNextjsFill } from "react-icons/ri";
 import { Project } from '../types';
 import nodeImage from '../images/node-image-interface.png';
 import chatImage from '../images/chat-app.png';
 import mriImage from '../images/mri-classification.png';
+import stackhiveimg from '../images/stackhiveimg.png';
 
 import { GrDeploy, GrKubernetes } from "react-icons/gr";
 const techIcons: { [key: string]: JSX.Element } = {
+  "Nextjs": <RiNextjsFill />,
   "ReactJS": <FaReact />,
   "NodeJS": <FaNodeJs />,
   "AWS": <FaAws />,
@@ -74,6 +77,14 @@ const techIcons: { [key: string]: JSX.Element } = {
 
 
 const staticProjects: Project[] = [
+  {
+    title: "StackHive",
+    description:
+      "StackHive is a complex Q&A platform for developers to ask questions, share knowledge, and learn from each other. It is built with Next.js, Tailwind CSS, Clerk, MongoDB, and more.",
+    image: { url: stackhiveimg },
+    techUsed: "Nextjs, ReactJS, NodeJS, MongoDB",
+    link: "https://stackhive-iota.vercel.app/"
+  },
   {
     title: "Node-Based Image Manipulation Interface",
     description:

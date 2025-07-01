@@ -11,47 +11,48 @@ const iconData: { [key: string]: JSX.Element } = {
 }
 const staticCertifications: Certification[] = [
   {
-    title: "C++ for C Programmers",
-    issuer: "University of California, Santa Cruz",
-    issuedDate: "",
-    link: "https://example.com/iitbombay-cert",
-    iconName: "coursera"
-  },
-  {
-    title: "Verified Certificate of IITBombayX",
-    issuer: "Indian Institute of Technology, Bombay",
-    issuedDate: "",
-    link: "https://example.com/iitbombay-cert",
+    title: "Learning AI Through Visualization",
+    issuer: "Columbia+",
+    issuedDate: "June 10, 2025",
+    link: "https://badges.plus.columbia.edu/9ba19318-efe7-4e9c-9c47-69c63ce37cfe#acc.8QyDgfob",
     iconName: "university"
   },
   {
-    title: "Programming with Everyone with Python",
-    issuer: "University of Michigan",
-    issuedDate: "",
-    link: "https://example.com/python-cert",
+    title: "Data Structure And Algorithm",
+    issuer: "Coding Club India",
+    issuedDate: "May 2024",
+    link: "https://drive.google.com/file/d/1rW0rMIWkmjHSHPpVDqqWhKavoyCLnK0b/view?usp=drive_link",
+    iconName: "university"
+  },
+  {
+    title: "English and Academic Preparation - Pre-Collegiate",
+    issuer: "Rice University",
+    issuedDate: "May 23, 2023",
+    link: "https://coursera.org/share/6c5ff0f35554f915d48494048db16de0",
     iconName: "coursera"
   },
   {
-    title: "Multiutility Robot Journal",
-    issuer: "International Journal of Mechanical Engineering and Technology",
-    issuedDate: "Jul 2018",
-    link: "https://example.com/robot-paper",
-    iconName: "ieee"
-  },
-  {
-    title: "Hosting Websites with Amazon Lightsail",
-    issuer: "Udemy",
-    issuedDate: "Jan 2020",
-    link: "https://example.com/lightsail-cert",
-    iconName: "udemy"
-  },
-  {
-    title: "Typescript: The Complete Developer's Guide",
-    issuer: "Udemy",
-    issuedDate: "Dec 2020",
-    link: "https://example.com/typescript-cert",
-    iconName: "udemy"
+    title: "Microeconomics Principles",
+    issuer: "University of Illinois Urbana-Champaign",
+    issuedDate: "May 13, 2023",
+    link: "https://coursera.org/share/e7d43830f162082764620734a1b91bcb",
+    iconName: "coursera"
   }
+  
+  // {
+  //   title: "Hosting Websites with Amazon Lightsail",
+  //   issuer: "Udemy",
+  //   issuedDate: "Jan 2020",
+  //   link: "https://example.com/lightsail-cert",
+  //   iconName: "udemy"
+  // },
+  // {
+  //   title: "Typescript: The Complete Developer's Guide",
+  //   issuer: "Udemy",
+  //   issuedDate: "Dec 2020",
+  //   link: "https://example.com/typescript-cert",
+  //   iconName: "udemy"
+  // }
 ];
 
 const Certifications: React.FC = () => {

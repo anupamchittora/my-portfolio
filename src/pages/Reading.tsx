@@ -34,18 +34,7 @@ const books = [
     imgSrc: eatThatFrog,
     description: "A motivational book on overcoming procrastination.",
   },
-  {
-    title: "Vijayaniki Aidhu Metlu",
-    author: "Yandamoori Veerendranath",
-    imgSrc: vijayanikiAidhuMetlu,
-    description: "An inspirational Telugu book for personal growth.",
-  },
-  {
-    title: "Vennelo Adapilla",
-    author: "Yandamoori Veerendranath",
-    imgSrc: venneloAdapilla,
-    description: "A classic Telugu romantic novel that touches the heart.",
-  },
+ 
 ];
 
 const Reading: React.FC = () => {

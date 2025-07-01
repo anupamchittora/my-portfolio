@@ -8,28 +8,28 @@ import './WorkExperience.css';
 import { TimelineItem } from '../types';
 
 const staticTimelineData: TimelineItem[] = [
-   {
-    title: "Joining Soon",
-    name: "",
-    techStack: "",
-    summaryPoints: [
-      ""
-    ],
-    dateRange: "May 2025 - Present",
-    timelineType: "work",
-  },
-  // {
-  //   title: "Software Developer - II 🎉",
-  //   name: "Roostify San Francisco",
-  //   techStack: "CI/CD, Automated Testing, API Gateway, Financial Data Integration",
+  //  {
+  //   title: "Joining Soon",
+  //   name: "",
+  //   techStack: "",
   //   summaryPoints: [
-  //     "📈 Implemented automated testing, reducing release cycle time by 30%.",
-  //     "Led the development of a loan origination platform, improving response time by 25%.",
-  //     "Collaborated closely with cross-functional teams on CI/CD pipeline enhancements."
+  //     ""
   //   ],
-  //   dateRange: "Jun 2023 - Present",
+  //   dateRange: "May 2025 - Present",
   //   timelineType: "work",
   // },
+  {
+    title: "Summer In 🎉",
+    name: "KPMG INDIA",
+    techStack: "Azure Data Explorer",
+    summaryPoints: [
+      "📈 Implemented automated testing, reducing release cycle time by 30%.",
+      "Led the development of a loan origination platform, improving response time by 25%.",
+      "Collaborated closely with cross-functional teams on CI/CD pipeline enhancements."
+    ],
+    dateRange: "Jun 2025 - Present",
+    timelineType: "work",
+  },
   // {
   //   title: "Mid-Level Software Developer 🎉",
   //   name: "Kajima London",

@@ -7,7 +7,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-
 .timeline-container {
   text-align: center;
   padding: 20px;
@@ -21,9 +20,12 @@
   margin-bottom: 40px;
   display: inline-block;
   text-align: center;
-  opacity: 0; /* Start invisible */
-  transform: translateY(20px); /* Start slightly lower */
-  animation: fadeInUp 2s ease-in-out both; /* Animation properties */
+  opacity: 0;
+  /* Start invisible */
+  transform: translateY(20px);
+  /* Start slightly lower */
+  animation: fadeInUp 2s ease-in-out both;
+  /* Animation properties */
 }
 
 /* Define the keyframes for the fade-in-up animation */
@@ -32,8 +34,21 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Optional: for logos */
+.timeline-logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.timeline-logo img {
+  max-width: 100px;
+  max-height: 50px;
+  object-fit: contain;
 }
