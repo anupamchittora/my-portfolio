@@ -8,6 +8,7 @@ import { Project } from '../types';
 import nodeImage from '../images/node-image-interface.png';
 import chatImage from '../images/chat-app.png';
 import mriImage from '../images/mri-classification.png';
+import interImage from '../images/interview.png';
 import stackhiveimg from '../images/stackhiveimg.png';
 
 import { GrDeploy, GrKubernetes } from "react-icons/gr";
@@ -78,6 +79,14 @@ const techIcons: { [key: string]: JSX.Element } = {
 
 const staticProjects: Project[] = [
   {
+    title: "Intrivium",
+    description:
+      "A job interview preparation platform powered by Vapi AI Voice agents, Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents",
+    image: { url: interImage },
+    techUsed: "Nextjs, ReactJS, NodeJS, MongoDB",
+    link: "https://intrivium.vercel.app/"
+  },
+  {
     title: "StackHive",
     description:
       "StackHive is a complex Q&A platform for developers to ask questions, share knowledge, and learn from each other. It is built with Next.js, Tailwind CSS, Clerk, MongoDB, and more.",
@@ -107,15 +116,8 @@ const staticProjects: Project[] = [
       "Built a CNN-based model to classify brain states from MRI slices, achieving 78% precision with subject-level evaluation.",
     image: { url:  mriImage  },
     techUsed: "Python, PyTorch, scikit-learn, OpenCV, NumPy, Pandas",
-    link: "https://github.com/anupamchittora/node-image-editor"
+    link: "https://github.com/anupamchittora/mri-temporal-lobe-classification"
   },
-  // {
-  //   title: "Secondary Investment Platform",
-  //   description: "Developed a platform for investment analysts to generate comprehensive startup reports with visualizations like pie charts and bar charts for investors.",
-  //   image: { url: "/images/secondary-platform.png" },
-  //   techUsed: "NodeJS, ReactJS, MongoDB, Cognito, ECS, Lambda"
-  // },
-  // Add more projects as needed
 ];
 
 
