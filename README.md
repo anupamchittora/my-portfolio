@@ -1,4 +1,4 @@
-## 🌟 Sumanth Samala's Netflix inspired Portfolio 🌟 - https://sumanthsamala.com/
+## 🌟 Anupam Chittora's Netflix inspired Portfolio 🌟 - https://anupamchittora.vercel.app/
 
 Welcome to my personal portfolio project! 🚀 This website showcases my work, skills, and experiences in web development. It's designed to be lightweight, customizable, and professional while maintaining an approachable style.
 
@@ -110,9 +110,9 @@ Your feedback is valuable and helps make this project better for everyone. Thank
 
 ## 📧 Contact Me
 
-- 💼 [Portfolio Website](https://sumanthsamala.com)
-- 📧 Email: [chintusamala96@gmail.com](mailto:chintusamala96@gmail.com)
-- 🔗 [LinkedIn](https://uk.linkedin.com/in/sumanth-samala-82431161)
+- 💼 [Portfolio Website](https://anupamchittora.vercel.app/)
+- 📧 Email: [Mail me](mailto:anupamchittora12345@gmail.com)
+- 🔗 [LinkedIn](https://uk.linkedin.com/in/anupamchittora)
 
 ---
 
